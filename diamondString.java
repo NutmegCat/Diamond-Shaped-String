@@ -3,13 +3,14 @@
 public class diamondString {
     public static void main(String[] args) {
         while (true) {
-            System.out.print("Enter a word (or type 'exit' to quit): ");
+            System.out.print("\nEnter a word (or type 'exit' to quit): ");
             String input = In.getString();
 
             if (input.equalsIgnoreCase("exit")) {
+                System.out.println("\nExiting ...\n");
                 break;
             } else if (input.length() > 10) {
-                System.out.println("Input word is too long. Please enter another word.");
+                System.out.println("\nInput word is too long. Please enter another word.");
                 continue;
             }
 
