@@ -24,7 +24,7 @@
       S
 ```
 
-- The program should work for a string up to ten characters long. If a user supplies a string that is longer than ten characters, the program should use only the first ten characters in forming the pattern.
+- The program should work for a string up to ten characters long. If a user supplies a string that is longer than ten characters, the program should use only the first ten characters in forming the pattern. ~~this branch doesn't have that but the master branch does~~
 
 ---
 - Has In.java
