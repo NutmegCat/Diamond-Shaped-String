@@ -24,6 +24,8 @@
       S
 ```
 
+- The program should work for a string up to ten characters long. If a user supplies a string that is longer than ten characters, the program should use only the first ten characters in forming the pattern.
+
 ---
 - Has In.java
 - Used Java version 1.2 ~~(*is updated though*)~~
