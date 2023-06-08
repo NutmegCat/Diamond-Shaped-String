@@ -17,9 +17,15 @@ class diamondString{
                 System.out.print(" ");
             }
             
-            // Print the pattern
-            int patternLength = length - spaces;
-            for (int j = 0; j < patternLength; j++) {
+            // Print the left side of the pattern
+            int leftPatternLength = length - spaces;
+            for (int j = 0; j < leftPatternLength; j++) {
+                System.out.print(input.charAt(j));
+            }
+            
+            // Print the right side of the pattern
+            int rightPatternLength = length - spaces - 1;
+            for (int j = rightPatternLength; j >= 0; j--) {
                 System.out.print(input.charAt(j));
             }
             
