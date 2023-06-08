@@ -10,9 +10,7 @@ class diamondString{
 
             if (input.equalsIgnoreCase("exit")) {
                 System.out.println("\nExiting... \n");
-                shouldContinue = false;
-            } else if (input.length() > 10) {
-                System.out.println("\nInput word is too long. Please enter another word.\n");
+                shouldContinue = false; 
             } else {
                 printDiamondPattern(input);
             }
