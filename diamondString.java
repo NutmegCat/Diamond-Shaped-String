@@ -5,13 +5,14 @@ class diamondString{
         boolean shouldContinue = true;
 
         while (shouldContinue) {
-            System.out.print("Enter a word (or type 'exit' to quit): ");
+            System.out.print("\nEnter a word (or type 'exit' to quit): ");
             String input = In.getString(); // read input from user
 
             if (input.equalsIgnoreCase("exit")) {
+                System.out.println("\nExiting... \n");
                 shouldContinue = false;
             } else if (input.length() > 10) {
-                System.out.println("Input word is too long. Please enter another word.");
+                System.out.println("\nInput word is too long. Please enter another word.\n");
             } else {
                 printDiamondPattern(input);
             }
